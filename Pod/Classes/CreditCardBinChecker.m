@@ -23,12 +23,12 @@
                                   @{
                                       @"issuer": @"visa",
                                       @"initNumber": @[@4],
-                                      @"maxNumbers": @[@13, @14, @15, @16],
+                                      @"maxNumbers": @[@16, @18, @19],
                                       @"maxSecurityCardCode": @3,
                                       @"regex": @"^4"
                                       },
                                   @{
-                                      @"issuer": @"master",
+                                      @"issuer": @"mastercard",
                                       @"initNumber": @[@5],
                                       @"maxNumbers": @[@16],
                                       @"maxSecurityCardCode": @3,
@@ -41,6 +41,13 @@
                                       @"maxSecurityCardCode": @4,
                                       @"regex": @"^3[47]"
                                   },
+                                  @{
+                                      @"issuer": @"maestro",
+                                      @"initNumber": @[@34,@37],
+                                      @"maxNumbers": @[@12, @13, @14, @15, @16, @17, @18, @19],
+                                      @"maxSecurityCardCode": @3,
+                                      @"regex": @"^5[06-9]"
+                                      },
                                   @{
                                       @"issuer": @"diners",
                                       @"initNumber": @[@301,@302,@303,@304,@305,@309,@36,@38,@39],
